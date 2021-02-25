@@ -7,9 +7,12 @@ export default function Profile() {
 
   return (
     <div className={css.profileContainer}>
-      <img src="https://github.com/williamdlm.png" alt="William Mota" />
+      <img
+        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
+        alt="William Mota"
+      />
       <div>
-        <strong>William Mota</strong>
+        <strong>User</strong>
         <p>
           <img src="icons/level.svg" alt="level" />
           Level {level}
