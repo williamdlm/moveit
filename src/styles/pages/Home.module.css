@@ -8,6 +8,7 @@
 }
 
 .container section {
+  margin-top: 2rem;
   flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -15,5 +16,13 @@
   align-content: center;
 }
 
-.leftContainer {
+@media (max-width: 720px) {
+  .container {
+    max-width: 460px;
+  }
+
+  .container section {
+    display: flex;
+    flex-direction: column;
+  }
 }
